@@ -8,27 +8,20 @@
     <script type="text/javascript" src="myscripts.js"></script>
     <script type="text/javascript" src="/jsPDF-1.3.2/jspdf.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
 
-  <div id="printableArea" class="form-group rows">
+  <div id="printableArea" class="form-group">
   <h1>Dalībnieka anketa</h1>
 <form name="festivalTicketForm" method="POST" data-netlify="true">
 
- <div class="name col-xs-8">
+ <div class="name">
   <label for="name"> Vārds, uzvārds</label><br>
     <input type="text" name="name" id="name" placeholder="Vārds, uzvārds" required/>
 </div>
 
-<div class="activity1 col-xs-8" >
+<div class="activity1" >
     <label for="activity1"> Iedvesmas meistarklases izvēle 13.30 </label><br>
      <select id="activity1" name="activity1">
         <option value="" disabled selected hidden>Lūdzu izvēlaties aktivitāti plkst. 13.30</option>
@@ -38,7 +31,7 @@
          </select>
   </div>
 
-  <div class="activity2 col-xs-8">
+  <div class="activity2">
     <label for="activity2"> Iedvesmas meistarklases izvēle 15.30 </label><br>
      <select id="activity2" name="activity2">
         <option value="" disabled selected hidden>Lūdzu izvēlaties aktivitāti plkst. 15.30</option>
