@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+html {
+    font-family: 'Roboto', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+form {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+
+h1 {
+    padding-left: 20px;
+    Font-family: 'Roboto', sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+div.name, .email, .phone, .message, .activity1, .activity2 {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+div.submit {
+    text-align: center;
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+input, select {
+    font-family: 'Roboto', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 38px;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+input#submit {
+    font-size: larger;
+    background-color: #cd8c2b;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 16px 4px;
+    cursor: pointer;
+}
+
+textarea {
+    height: 72px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 300px;
+}
+
+label {
+    font-weight: 300px;
+    font-size: larger;
+}

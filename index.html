@@ -1,0 +1,71 @@
+
+<!-- Forma, kurā dalībnieks norāda festivāla aktivitātes, kurās piedalīsies -->
+
+<html>
+
+ <head>
+   <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="myscripts.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+
+  <div id="printableArea" class="form-group rows">
+  <h1>Dalībnieka anketa</h1>
+<form name="festivalTicketForm" method="POST" data-netlify="true">
+
+ <div class="name col-xs-8">
+  <label for="name"> Vārds, uzvārds</label><br>
+    <input type="text" name="name" id="name" placeholder="Vārds, uzvārds" required/>
+</div>
+
+<div class="activity1 col-xs-8" >
+    <label for="activity1"> Iedvesmas meistarklases izvēle 13.30 </label><br>
+     <select id="activity1" name="activity1">
+        <option value="" disabled selected hidden>Lūdzu izvēlaties aktivitāti plkst. 13.30</option>
+         <option value="activityOption1">Interesanta aktivitāte Nr.1</option>
+         <option value="activityOption2">Interesanta aktivitāte Nr.2</option>
+         <option value="activityOption3">Interesanta aktivitāte Nr.3</option>
+         </select>
+  </div>
+
+  <div class="activity2 col-xs-8">
+    <label for="activity2"> Iedvesmas meistarklases izvēle 15.30 </label><br>
+     <select id="activity2" name="activity2">
+        <option value="" disabled selected hidden>Lūdzu izvēlaties aktivitāti plkst. 15.30</option>
+         <option value="activityOption1">Interesanta aktivitāte Nr.1</option>
+         <option value="activityOption2">Interesanta aktivitāte Nr.2</option>
+         <option value="activityOption3">Interesanta aktivitāte Nr.3</option>
+         </select>
+  </div>
+</div>
+
+
+<!-- <div class="email">
+    <label for="email"> E-pasts</label><br>
+    <input type="email" name="email" id="email" placeholder="E-pasts" required/>
+</div>
+
+<div class="phone">
+    <label for="phone"> Tālruņa numurs, ja vēlaties lai atzvanām</label><br>
+    <input type="tel" name="phone" id="phone" pattern="[0-9]{8}" minlength="8" placeholder="Tālruņa numurs" required/>
+</div> 
+
+<div class="message">
+    <label for="message"> Ziņojums</label><br>
+    <textarea type="text" name="message" id="message" placeholder="Ziņojums"></textarea>
+</div> -->
+
+<div class="submit">
+    <input type="submit" onclick="printDiv()" value="Iesniegt / Izdrukāt" id="submit"/>
+</div>
+
+</form>
+</html>
