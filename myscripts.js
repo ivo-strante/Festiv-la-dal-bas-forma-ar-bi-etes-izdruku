@@ -24,3 +24,5 @@ function printDiv() {
 
     document.body.innerHTML = originalContents;
 }
+
+printDiv();
