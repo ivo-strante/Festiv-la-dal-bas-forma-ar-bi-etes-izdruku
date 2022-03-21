@@ -1,6 +1,7 @@
 <html>
 <body>
-<script>const activityOption1Description="Aktivitātes opcija Nr1";
+<script>
+function printDiv() {const activityOption1Description="Aktivitātes opcija Nr1";
     const activityOption2Description="Aktivitātes opcija Nr2";
     const activityOption3Description="Aktivitātes opcija Nr3";
     var opt = {
@@ -23,13 +24,17 @@
       });
     //window.print();
 
-    document.body.innerHTML = originalContents; </script>
+    document.body.innerHTML = originalContents;
+ } </script>
 <div id="ticket">
     <p>Lorem ipsum dolor sit amet consectetur 
         adipisicing elit. Dolore impedit animi 
         odio ipsa, quibusdam soluta nobis. Expedita, 
         id laudantium, tempore explicabo quae, rem 
         placeat earum fugiat culpa deleniti minima quo.</p>
+</div>
+<div>
+    <button onclick="printDiv()">Izdrukāt biļeti</button>
 </div>
 </body>
 </html>
