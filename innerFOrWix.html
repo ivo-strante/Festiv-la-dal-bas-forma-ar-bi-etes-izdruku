@@ -1,0 +1,14 @@
+<script type="text/javascript">
+  window.onmessage = (event) => {
+    if (event.data) {
+      console.log(`HTML Component received a message: ${event.data}`);
+      document.getElementById("surname").innerHTML = event.data.surname;
+      document.getElementById("email").innerHTML = event.data.email; 
+      document.getElementById("activity1").innerHTML = event.data.activity1;
+      document.getElementById("activity2").innerHTML = event.data.activity2; 
+      window.print();
+    }
+  }
+</script>
+<p id="surname" >Html modulis</p> <p id="email">Html modulis</p> <p id="activity1">Html modulis</p>
+<p id="activity2">Html modulis</p>

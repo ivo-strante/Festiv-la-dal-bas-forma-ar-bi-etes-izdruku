@@ -25,7 +25,6 @@ function printDiv() {const activityOption1Description="Aktivitātes opcija Nr1";
     var element = document.getElementById("ticket");
     html2pdf().set(opt).from(element).toPdf().get('pdf').then(function (pdf) {
         window.open(pdf.output('bloburl'), '_blank');
-        console.log(document.getElementById("activity1").value);
       });
     //window.print();
 
